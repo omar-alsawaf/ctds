@@ -28,3 +28,4 @@ while choose_mode in mode:
   
     break        
         
+#123jewrhf dhbjewnk'pql[fdlvkbjnk dfbsvnekf;k'lmnm]
