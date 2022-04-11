@@ -73,7 +73,7 @@ while not (list1[0]==0 and list1[1]==0 and list1[2]==0):
             else:
                 kilo=1
             list1[z]-=kilo
-            print("the computer removed ",kilo,"from",c+1)
+            print("the computer removed ",kilo,"from",z+1)
             if(list1[0]==0 and list1[1]==0 and list1[2]==0):
                 lost()
                 break
