@@ -61,6 +61,7 @@ while not (list1[0]==0 and list1[1]==0 and list1[2]==0):
             x=int(balls())
         while (list1[c]-x>=0):
             list1[c]-=x
+            print(list1[0],"-",list1[1],"-",list1[2])
             if(list1[0]==0 and list1[1]==0 and list1[2]==0):
                 win()
                 break
@@ -72,11 +73,9 @@ while not (list1[0]==0 and list1[1]==0 and list1[2]==0):
             else:
                 kilo=1
             list1[z]-=kilo
+            print("the computer removed ",kilo,"from",c+1)
             if(list1[0]==0 and list1[1]==0 and list1[2]==0):
                 lost()
                 break
-            print("bag1=",list1[0])
-            print("bag2=",list1[1])
-            print("bag3=",list1[2])
             break
         break
