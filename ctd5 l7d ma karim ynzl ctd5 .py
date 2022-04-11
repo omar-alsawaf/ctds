@@ -68,7 +68,7 @@ while not (list1[0]==0 and list1[1]==0 and list1[2]==0):
             if (list1[z]>=5):
                 kilo=random.randint(1,5)
             elif(list1[z]>1 and list1[z],5):
-                kilo=random.randint(1,z)
+                kilo=random.randint(1,list1[z])
             else:
                 kilo=1
             list1[z]-=kilo
