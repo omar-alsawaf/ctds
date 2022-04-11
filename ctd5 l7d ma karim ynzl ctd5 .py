@@ -1,6 +1,5 @@
 import random
 import cv2
-import os
 
 baga=10
 bagb=10
@@ -11,13 +10,13 @@ def win():
     img=cv2.imread('K:\Pictures\Saved Pictures\win.jpg',1)
     cv2.imshow('image',img)
     cv2.waitKey(0)
-    cv2.destroyallwindows()
+    cv2.destroyAllWindows()
 
 def lost():
     img=cv2.imread('K:\Pictures\Saved Pictures\lost.jpg',1)
     cv2.imshow('image',img)
     cv2.waitKey(0)
-    cv2.destroyallwindows()
+    cv2.destroyAllWindows()
 
 def bag():
     while True:
@@ -74,7 +73,7 @@ while not (list1[0]==0 and list1[1]==0 and list1[2]==0):
                 kilo=1
             list1[z]-=kilo
             if(list1[0]==0 and list1[1]==0 and list1[2]==0):
-                print("you lost")
+                lost()
                 break
             print("bag1=",list1[0])
             print("bag2=",list1[1])
